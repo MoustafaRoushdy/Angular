@@ -4,19 +4,20 @@ import { StudentComponent } from './Student/student.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DepartmentComponent } from './Student/department/department.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MenuComponent } from './menu/menu.component';
+import { DepartmentComponent } from './core/department/department.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent,StudentComponent, DepartmentComponent, HeaderComponent, FooterComponent, SidebarComponent, MenuComponent
+    AppComponent,StudentComponent, HeaderComponent, SidebarComponent, MenuComponent ,DepartmentComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Department } from './_models/department';
 
 @Component({
   selector: 'app-root',

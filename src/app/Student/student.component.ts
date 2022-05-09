@@ -9,5 +9,9 @@ import { Component } from "@angular/core";
 })
 
 export class StudentComponent{
+    stdId:number = 0 ; 
+    stdAge:number = 0 ; 
+    stdName:string = ""; 
+    stdDeptNo:number = 0 ; 
     
 }
